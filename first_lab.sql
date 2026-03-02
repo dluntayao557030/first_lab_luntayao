@@ -1,9 +1,8 @@
 CREATE DATABASE first_lab;
-USE DATABASE first_lab;
+USE first_lab;
 
 CREATE TABLE student_records (
-record_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-student_id VARCHAR(10) NOT NULL,
+student_id VARCHAR(10) NOT NULL PRIMARY KEY,
 student_name VARCHAR(100) NOT NULL,
 email VARCHAR(100) NOT NULL,
 course VARCHAR(50) NOT NULL,
